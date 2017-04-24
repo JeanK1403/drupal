@@ -22,23 +22,23 @@ header div{
 	height: 60px;
 }
 
-h1, nav{
+h1, header nav, footer nav{
 	margin: 10px;
 }
 
-h1, nav li{
+h1, header nav li, footer nav li{
 	float: left;
 }
 
-nav{
+header nav{
 	float: right;
 }
 
-nav li{
+header nav li, footer nav li{
 	width: 100px;
 }
 
-nav li a {
+header nav li a, footer nav li a {
     display: block;
 }
 
@@ -113,6 +113,9 @@ footer p{
 	margin: 5px;
 }
 
+.views-element-container{
+	display: none;
+}
 
 /*////////////////////////////////////////////////////////*/
 /*////////////////////////Mobile//////////////////////////*/
@@ -136,29 +139,29 @@ footer p{
 		height: inherit;
 	}
 
-	h1, nav, nav li, ul{
+	h1, header nav, header nav li, header ul{
 		float: none;
 		width: 100%;
 		text-align: center;
 	}
 
-	h1, ul{
+	h1, header ul{
 		margin: 4px;
 	}
 
-	nav{
+	header nav{
 		margin: 0 auto;
 	}
 
-	nav ul{
+	header nav ul{
 		padding: 0px;
 	}
 
-	nav li{
+	header nav li{
 		margin: 2px;
 	}
 
-	nav li a {
+	header nav li a {
 	    padding: 2px;
 	    border: none;
 	}
