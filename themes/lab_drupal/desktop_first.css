@@ -113,7 +113,8 @@ footer p{
 	margin: 5px;
 }
 
-.views-element-container{
+.views-element-container, #block-lab-drupal-powered, 
+.search-block-form, .contextual-region{
 	display: none;
 }
 
