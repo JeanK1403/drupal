@@ -10,7 +10,9 @@
 		<!--link rel="stylesheet" href="styles/mobile_first.css" media="screen"-->
 	</head>
 	<body>
+	{{page.content}}
 		<div id="container">
+			{{page.header}}
 			<header>
 				<div>
 					<h1>UNA WEB [ Jean Saborío U. ]</h1>
@@ -27,7 +29,7 @@
 					<img class="img" src="http://img4.meristation.com/files/imagenes/general/god-of-war_td04-605x300.jpg" alt="God of War 4">
 				</div>
 			</header>
-			{{page.header}}
+			
 			<main id="content">
 				<article class="art_1">
 					<h2>Main Section</h2>
@@ -73,7 +75,7 @@
 				</article>
 			</main>
 		</div>
-		{{page.content}}
+		{{page.footer}}
 		<footer>
 			<div>
 				<nav>
@@ -87,6 +89,6 @@
 			</div>
 			<p>Copyright @ 2017 Curso de Programación Web</p>
 		</footer>
-		{{page.footer}}
+		
 	</body>
 </html>

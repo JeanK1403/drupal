@@ -1,7 +1,7 @@
-style:
+global-styling:
   css:
     theme:
-      reset: {}
-      desktop_first: {}
-      style.css: {}
-      print: {}
+      css/style.css: {}
+	  css/reset.css: {}
+	  css/desktop_first.css: {}
+	  css/print.css: {}
