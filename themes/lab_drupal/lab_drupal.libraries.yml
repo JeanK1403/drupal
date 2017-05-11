@@ -1,7 +1,7 @@
 global-styling:
   css:
     theme:
-      css/style.css: {}
-	  css/reset.css: {}
-	  css/desktop_first.css: {}
-	  css/print.css: {}
+      css/style.css: { media: "screen" }
+	    css/reset.css: { media: "screen" }
+	    css/desktop_first.css: { media: "screen" }
+	    css/print.css: { media: "print" }
