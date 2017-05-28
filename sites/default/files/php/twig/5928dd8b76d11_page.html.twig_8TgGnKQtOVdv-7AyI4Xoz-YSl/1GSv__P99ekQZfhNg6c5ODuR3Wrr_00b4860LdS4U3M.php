@@ -296,7 +296,7 @@ class __TwigTemplate_545e4bc0de0d6b5825257ed098de6006ac2402e8731c269c040e636ee9d
     public function block_sidebar_first($context, array $blocks = array())
     {
         // line 126
-        echo "          <aside class=\"col-sm-3\" role=\"complementary\">
+        echo "          <aside class=\"col-sm-9\" role=\"complementary\">
             ";
         // line 127
         echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "sidebar_first", array()), "html", null, true));
@@ -514,7 +514,7 @@ class __TwigTemplate_545e4bc0de0d6b5825257ed098de6006ac2402e8731c269c040e636ee9d
       {# Sidebar First #}
       {% if page.sidebar_first %}
         {% block sidebar_first %}
-          <aside class=\"col-sm-3\" role=\"complementary\">
+          <aside class=\"col-sm-9\" role=\"complementary\">
             {{ page.sidebar_first }}
           </aside>
         {% endblock %}
