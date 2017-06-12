@@ -1,3 +1,88 @@
 /**
  * Place your custom styles here.
  */
+
+
+/*.navbar-nav{
+	float: none;
+}
+
+.navbar-nav li:last-child{
+	float: right;
+}*/
+
+@font-face {
+    font-family: Maiden;
+    src: url(maiden.TTF);
+}
+
+@font-face {
+    font-family: NRR;
+    src: url(ROCK_KAPAK_2.TTF);
+}
+
+*{
+	font-family: NRR;
+	color: white;
+}
+
+
+
+body{
+	background-color: #2A3540;
+}
+
+a{
+	color: #A9D5FF;
+}
+
+p{
+	color: white;
+}
+
+div{
+	padding: 4px 0px 4px 0px;
+}
+
+header{
+	background-color: #A6B6BF;
+}
+
+header a{
+	color: #373D40;
+}
+
+.page-header{
+	margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5,
+h1 span, h2 span, h3 span, h4 span, h5 span,
+label{
+	color: #C8DAE5;
+}
+
+.well{
+	background-color: #556B7F;
+	border: none;
+}
+
+.alert a, .field--label, .file {
+    font-size: x-large;
+    color: #C8DAE5;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	height: 250px;
+}
+
+.carousel-inner{
+	margin-bottom: 20px;
+}
+
+.viewServicios img{
+	width: 200px;
+	height: 200px;
+    float: left;
+    margin-right: 20px;
+}

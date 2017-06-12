@@ -102,6 +102,15 @@
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
 
+    {# Slider #}
+      {% if page.slider %}
+        {% block slider %}
+          <div class="col-sm-12">
+            {{ page.slider }}
+          </div>
+        {% endblock %}
+      {% endif %}
+
       {# Header #}
       {% if page.header %}
         {% block header %}
